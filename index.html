@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Change colours</title>
+ 
+    </head>
+<body>
+    <center>
+    <h1>Changes colours</h1>
+    <div class="box">
+    </div></center>
+    </body>
+<style>
+    h1{
+        height: 20px;
+        width: 100px
+        font-family: serif;
+    }
+    
+    .box{
+        
+    height: 200px;
+    width: 400px;
+    border: ridge 5px Black;
+    position: relative;
+        transform: skew(20 deg);
+    animation: changecolours 10s infinite alternate;
+        
+    }
+    @keyframes changecolours{
+             
+        0%{background-color: aqua; top: 0px;}
+        20%{background-color: chartreuse; top: 0px;}
+         30%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb5z6MCCSYYRWCiVDmoNaRZ1qEwl6MlQCOzkSBJbdMlg&s); top: 0px;}
+         40%{background-color:crimson; top: 0px;}
+         60%{background-color:forestgreen; top: 0px;}
+        80%{background-color:darkgoldenrod; top: 0px;}
+          
+         100%{background-color:darkblue; top: 0px;}
+             
+    }
+    
+    </style></html>
